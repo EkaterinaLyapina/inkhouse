@@ -1,0 +1,147 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #F4F6F5;
+}
+.bg-primary{
+    background-color:#E1EDE6!important
+}
+.nav-link{
+    color: #2C2D35;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+.nav-link:hover{
+    color: #598D66;
+}
+.navbar{
+    height: 80px;
+}
+.nav-item{
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+.nav-item:last-child{
+    margin-right: 0;
+}
+.container{
+    max-width: 95%;
+}
+.block1_p{
+    color: #86928B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    @media (max-width: 768px){
+        align-items: center;
+    }
+}
+h1{
+    color: #2C2D35;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 110%; /* 66px */
+}
+.colortext{
+    color: #598D66;;
+}
+.btn{
+    padding: 20px 60px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.modal_text{
+    color: #2C2D35;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126.4%; /* 22.752px */
+}
+.pole{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border-radius: 1rem;
+    background-color: #E1EDE6;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.card-img-top{
+    border-radius: 0;
+    padding: 20px;
+}
+.card-text{
+    color: #86928B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.card-title{
+    color: #2C2D35;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.card-subtitle{
+    color: #598D66;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#title{
+    color: #2C2D35;
+}
+#repr{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin-top: 10%;
+}
+#paintings{
+    margin-top: 10%;
+    text-align: center;
+}
+.nav-button{
+    justify-content: flex-end;
+    margin: 0 0 0 0;
+}
+#FAQ{
+    text-align: center;
+}
+.acc-text{
+    color: #2C2D35;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 19.8px */
+}
+.main-button{
+    @media (max-width: 768px){
+        display: block;
+        margin: 0 auto;
+    }
+}
+.forms{
+    display: block;
+    margin: 0 auto;
+}
+.btn-form{
+    display: block;
+    margin: 0 auto;
+}
+.footer{
+    background-color: #E1EDE6;
+    height: 90px;
+    margin-top: 10%;
+}
